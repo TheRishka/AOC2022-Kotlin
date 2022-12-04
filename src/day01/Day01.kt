@@ -30,7 +30,7 @@ fun main() {
 
     fun part2(input: List<String>) = extractGnomeCalories(input).values.toList().sortedDescending()
 
-    val input = readInput("Day01")
+    val input = readInput("day01/Day01")
     println(part1(input))
     println(part2(input).subList(0, 3).sum())
 }
